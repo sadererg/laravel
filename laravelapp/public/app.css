@@ -1,0 +1,51 @@
+main > .container {
+    padding: 70px 15px 20px;
+}
+body {
+    background: #e7e7e7; 
+    color: #241d1d; 
+   }
+   p{
+    font-size: 14px;
+   }
+   header {
+    background:#743e3e; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu {
+    flex-grow: 1;
+  }
+  .menu ul {
+    display: flex;
+  flex-flow: row nowrap;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  list-style: none;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    color: rgb(211, 142, 38);
+    text-decoration: underline overline #FF3028;
+  }
+  .menu a,
+.menu .active {  
+    display: block;
+    padding: 8px 10px;
+    text-transform: capitalize;
+    letter-spacing: .27em;
+}
+.menu .active {
+  color: #fff;
+  background-color: #ff3d00;
+  border-radius: 8px;
+}
