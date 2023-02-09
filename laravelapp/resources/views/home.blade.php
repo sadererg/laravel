@@ -14,7 +14,8 @@
         <li><a href ="/about">О техникуме</li>
         <li><a href ="/contact">контакты</li>
         <li><a href ="/u20">И-20</a></li>
-        <li><a href ="ych">таблицы</a></li>
+        <li><a href ="ychTable">таблица учителей</a></li>
+        <li><a href ="studTable">таблица учеников</a></li>
         
             </ul>
      </div>

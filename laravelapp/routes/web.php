@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ychController;
+use App\Http\Controllers\studController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,9 +30,6 @@ Route::get('/u20', function () {
 Route::get('/app', function () {
     return view('app');
 });
-Route::get('ych',[ychController::class,'Ych']);
-//Route::get('ych', function () {
-   // $posts = App\Models\ych::all();
-    //return view('ych',compact('posts'));
-//});
+Route::get('ychTable',[ychController::class,'index']);
+Route::get('studTable',[studController::class,'index']);
 

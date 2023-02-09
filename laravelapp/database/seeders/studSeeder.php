@@ -3,18 +3,18 @@
 namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\ych;
-use App\Database\Factories\ychFactory;
+use App\Models\student;
+use App\Database\Factories\studentFactory;
 
 
-class ychSeeder extends Seeder{
+class studSeeder extends Seeder{
     /**
      * 
      * @return  void
       */
       public function run()
       {//$this->call(ychSeeder::class);
-       ych::factory()->count(90)->create();
+       student::factory()->count(90)->create();
 
 
       }
